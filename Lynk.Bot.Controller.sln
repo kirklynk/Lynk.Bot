@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynk.Bot.Bluetooth.LE.Android", "Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.Android\Lynk.Bot.Bluetooth.LE.Android.csproj", "{7E37B796-9AEF-477B-A337-FEC1DE630D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynk.Bot.Bluetooth.LE.iOS", "Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.iOS\Lynk.Bot.Bluetooth.LE.iOS.csproj", "{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lynk.Bot.Bluetooth.LE", "Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.shproj", "{4CA23255-334A-4579-86D8-97351A216B80}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.projitems*{4662f0db-d3a8-41e3-8fcb-1fc7c7af8ac8}*SharedItemsImports = 4
+		Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.projitems*{4ca23255-334a-4579-86d8-97351a216b80}*SharedItemsImports = 13
+		Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE\Lynk.Bot.Bluetooth.LE.projitems*{7e37b796-9aef-477b-a337-fec1de630d24}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhone.Build.0 = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7E37B796-9AEF-477B-A337-FEC1DE630D24}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Release|iPhone.ActiveCfg = Release|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Release|iPhone.Build.0 = Release|iPhone
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{4662F0DB-D3A8-41E3-8FCB-1FC7C7AF8AC8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kirklynk.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.Android\\Lynk.Bot.Bluetooth.LE.Android.csproj
+		SccProjectName1 = Lynk.Bot.Bluetooth.LE/Lynk.Bot.Bluetooth.LE.Android
+		SccLocalPath1 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.Android
+		SccProjectUniqueName2 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.iOS\\Lynk.Bot.Bluetooth.LE.iOS.csproj
+		SccProjectName2 = Lynk.Bot.Bluetooth.LE/Lynk.Bot.Bluetooth.LE.iOS
+		SccLocalPath2 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.iOS
+		SccProjectUniqueName3 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.projitems
+		SccProjectTopLevelParentUniqueName3 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.shproj
+		SccProjectName3 = Lynk.Bot.Bluetooth.LE/Lynk.Bot.Bluetooth.LE
+		SccLocalPath3 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE
+		SccProjectUniqueName4 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE.shproj
+		SccProjectName4 = Lynk.Bot.Bluetooth.LE/Lynk.Bot.Bluetooth.LE
+		SccLocalPath4 = Lynk.Bot.Bluetooth.LE\\Lynk.Bot.Bluetooth.LE
+	EndGlobalSection
+EndGlobal

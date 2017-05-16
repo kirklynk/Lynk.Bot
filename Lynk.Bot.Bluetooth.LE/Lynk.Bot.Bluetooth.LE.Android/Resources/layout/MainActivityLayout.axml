@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minWidth="25px"
+    android:padding="20px"
+    android:minHeight="25px">
+	<RelativeLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="180dp"
+			android:layout_height="match_parent"
+			android:layout_weight="0"
+			android:id="@+id/controlContainer">
+		<TextView
+				android:text="App State"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentLeft="true"
+				android:id="@+id/textView3" />
+		<Switch
+				android:textOn="Running"
+				android:textOff="Stopped"
+				android:id="@+id/startStopToggleButton"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/textView3"
+				android:layout_alignParentLeft="true"
+				android:text="Stopped"
+				android:layout_marginTop="0.0dp" />
+		<TextView
+				android:text="Speed Control"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_above="@+id/speedLimitSpinner"
+				android:layout_alignParentLeft="true"
+				android:id="@+id/textView2" />
+		<Spinner
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/speedLimitSpinner"
+				android:layout_above="@+id/accelerationSlider"
+				android:layout_alignParentLeft="true"
+				android:enabled="false" />
+		<SeekBar
+				android:id="@+id/accelerationSlider"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:enabled="false" />
+		<ToggleButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textOn="Reverse"
+				android:textOff="Forward"
+				android:text="&lt; direction &gt;"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true"
+				android:id="@+id/flipDriveDirectionSwitch" />
+	</RelativeLayout>
+	<RelativeLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:id="@+id/headsUpContainer">
+		<ProgressBar
+				android:id="@+id/accelerationIndicatorProgressBar"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:layout_width="260dp"
+				android:layout_height="260dp"
+				android:layout_centerInParent="true"
+				android:rotation="90"
+				android:max="100"
+				android:progressDrawable="@drawable/circular" />
+		<TextView
+				android:text="0"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:textSize="80dp"
+				android:id="@+id/accelerationIndicatorTextView" />
+		<ProgressBar
+				android:layout_width="260dp"
+				android:layout_height="260dp"
+				android:indeterminate="true"
+				android:indeterminateDuration="5000"
+				android:layout_centerInParent="true"
+				style="?android:attr/progressBarStyleLarge"
+				android:progressDrawable="@drawable/circular"
+				android:id="@+id/connectingIndicator" />
+
+		<Button
+				android:text="Find Devices"
+				android:id="@+id/findDevicesButton"
+				android:layout_row="0"
+				android:layout_column="0"
+				android:layout_width="100dp"
+				android:textSize="8dp"
+				android:visibility="gone"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentBottom="true" />
+		<TextView
+				android:text="0"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_above="@id/accelerationIndicatorTextView"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/tiltAngleTextView" />
+		<LinearLayout
+				android:orientation="vertical"
+			  android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentRight="true">
+			<TextView
+				 android:text="Not Connected"
+				  android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+				 android:textAppearance="?android:attr/textAppearanceSmall"
+				 android:id="@+id/lynkBotStatusTextView" />
+			<TextView
+				 android:text="0"
+				  android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				 android:textAppearance="?android:attr/textAppearanceSmall"
+				 android:id="@+id/objectCollisionTextView" />
+			<TextView
+				 android:text="0"
+				  android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				 android:textAppearance="?android:attr/textAppearanceSmall"
+				 android:id="@+id/batteryStatusTextView" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

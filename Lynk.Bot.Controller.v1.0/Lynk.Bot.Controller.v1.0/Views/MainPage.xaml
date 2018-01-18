@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lynk.Bot.Controller.v1._0.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Entry Text="{Binding RemoteHostname}" Placeholder="Remote Hostname" />
+        <Entry Text="{Binding RemotePort}" Placeholder="Remote Port"  />
+        <Button Text="Connect" Command="{Binding ClickCommand}" HeightRequest="32" ></Button>
+    </StackLayout>
+
+</ContentPage>
